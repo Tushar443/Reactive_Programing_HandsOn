@@ -1,4 +1,4 @@
-package concurrent;
+package com.practice.virtualThreadDemo;
 
 import java.util.concurrent.CountDownLatch;
 
