@@ -1,9 +1,11 @@
 package com.practice.CompletableFuture;
 
 import com.practice.CompletableFuture.aggregator.AggregatorService;
+import com.practice.CompletableFuture.aggregator.ProductDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executors;
 import java.util.stream.IntStream;
@@ -22,7 +24,7 @@ public class UsedAllOfDemo {
         var aggregator = new AggregatorService(executor);
 
         // create futures
-        var futures = IntStream.rangeClosed(52, 100)
+        List<CompletableFuture<ProductDto>> futures = IntStream.rangeClosed(1, 100)
                                .mapToObj(id -> CompletableFuture.supplyAsync(() -> aggregator.getProductDto(id), executor))
                                .toList();
 

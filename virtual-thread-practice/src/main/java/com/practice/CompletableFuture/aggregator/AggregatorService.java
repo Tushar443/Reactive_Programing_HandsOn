@@ -16,11 +16,11 @@ public class AggregatorService {
 
     public ProductDto getProductDto(int id) {
         var product = CompletableFuture.supplyAsync(() -> Client.getProduct(id), executorService)
-                                       .orTimeout(1250, TimeUnit.MILLISECONDS)
+                                       .orTimeout(2250, TimeUnit.MILLISECONDS)
                                        .exceptionally(ex -> null);
         var rating = CompletableFuture.supplyAsync(() -> Client.getRating(id), executorService)
                                       .exceptionally(ex -> -1)
-                                      .orTimeout(1250, TimeUnit.MILLISECONDS)
+                                      .orTimeout(2250, TimeUnit.MILLISECONDS)
                                       .exceptionally(ex -> -2);
         return new ProductDto(id, product.join(), rating.join());
     }

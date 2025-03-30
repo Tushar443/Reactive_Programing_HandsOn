@@ -17,11 +17,10 @@ public class SimpleCompletableFutureDemo {
 
     public static void main(String[] args) {
         log.info("main starts");
-        var cf = fastTask();
-//        var cf = slowTask();
-//        cf.thenAccept(v -> log.info("value={}", v));
-
-        log.info("value={}", cf.join());
+//        var cf = fastTask();
+        var cf = slowTask();
+        cf.thenAccept(v -> log.info("value={}", v));
+//        log.info("value={}", cf.join());
         log.info("main ends");
 
         CommonUtils.sleep(Duration.ofSeconds(2));

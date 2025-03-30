@@ -9,9 +9,9 @@ import java.util.concurrent.Executors;
 /*
     To get multiple products information in parallel
  */
-public class AccessResponseUsingFuturedemo {
+public class AccessResponseUsingFutureDemo {
 
-    private static final Logger log = LoggerFactory.getLogger(AccessResponseUsingFuturedemo.class);
+    private static final Logger log = LoggerFactory.getLogger(AccessResponseUsingFutureDemo.class);
 
     public static void main(String[] args) throws Exception {
 

@@ -36,7 +36,7 @@ public class RunAsyncDemo {
 
         var cf = CompletableFuture.runAsync(() -> {
             CommonUtils.sleep(Duration.ofSeconds(1));
-           // log.info("task completed");
+            log.info("task completed");
             throw new RuntimeException("oops");
         }, Executors.newVirtualThreadPerTaskExecutor());
 
