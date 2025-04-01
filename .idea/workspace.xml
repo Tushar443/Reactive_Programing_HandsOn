@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79aab51-11a5-401e-ac83-2d7ecfb7bda5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual-thread-practice/src/main/java/concurrent/InboundOutboundTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virtual-thread-practice/src/main/java/concurrent/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/src/main/java/com/practice/trip_advisor/TripAdvisorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trip-advisor/src/test/java/com/practice/trip_advisor/TripAdvisorApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +33,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="virtual-thread-basic" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -63,9 +63,9 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "M:/Tushar/Java Practice/Reactive_Programing_HandsOn",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
