@@ -1,4 +1,4 @@
-package com.practice.monoSupplierDemo;
+package com.practice.monoMethodsHandOn;
 
 import com.practice.common.Util;
 import org.slf4j.Logger;

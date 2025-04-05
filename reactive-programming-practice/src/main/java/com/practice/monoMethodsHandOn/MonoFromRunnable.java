@@ -1,17 +1,17 @@
-package com.practice.monoSupplierDemo;
+package com.practice.monoMethodsHandOn;
 
 import com.practice.common.Util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;
 
-import java.util.List;
-
 public class MonoFromRunnable {
     private static final Logger log = LoggerFactory.getLogger(MonoFromRunnable.class);
 
     public static void main(String[] args) {
-        getProduct(2).subscribe(Util.subscriber());
+        getProduct(1).subscribe(Util.subscriber("sub1"));
+        getProduct(2).subscribe(Util.subscriber("sub2"));
+        getProduct(3).subscribe(Util.subscriber("sub3"));
     }
 
     private static Mono<String> getProduct(int productId){

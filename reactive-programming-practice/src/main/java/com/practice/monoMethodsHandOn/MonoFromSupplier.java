@@ -1,7 +1,6 @@
-package com.practice.monoSupplierDemo;
+package com.practice.monoMethodsHandOn;
 
 import com.practice.common.Util;
-import com.practice.publisherSubscriberPractice.SubscriberImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;
