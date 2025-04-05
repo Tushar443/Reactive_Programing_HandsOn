@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.practice'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    implementation("io.projectreactor:reactor-core:3.7.4")
+    // https://mvnrepository.com/artifact/io.projectreactor.netty/reactor-netty
+    implementation("io.projectreactor.netty:reactor-netty:1.2.4")
+    // https://mvnrepository.com/artifact/io.projectreactor.netty/reactor-netty-http
+    implementation("io.projectreactor.netty:reactor-netty-http:1.2.4")
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    implementation("ch.qos.logback:logback-classic:1.5.18")
+    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+    implementation("com.github.javafaker:javafaker:1.0.2")
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.12.1")
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-test
+    testImplementation("io.projectreactor:reactor-test:3.7.4")
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
