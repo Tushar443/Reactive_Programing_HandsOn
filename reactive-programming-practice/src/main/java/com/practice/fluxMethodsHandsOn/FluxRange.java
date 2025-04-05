@@ -2,7 +2,6 @@ package com.practice.fluxMethodsHandsOn;
 
 import com.practice.common.Util;
 import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 
 public class FluxRange {
     public static void main(String[] args) {

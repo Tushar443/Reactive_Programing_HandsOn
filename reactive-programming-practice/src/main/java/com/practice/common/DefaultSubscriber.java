@@ -1,6 +1,5 @@
 package com.practice.common;
 
-import com.practice.publisherSubscriberPractice.SubscriberImpl;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
 import org.slf4j.Logger;
