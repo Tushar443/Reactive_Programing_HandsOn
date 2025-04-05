@@ -1,7 +1,5 @@
-package com.practice.monoDemo;
+package com.practice.monoHandOn;
 
-import org.reactivestreams.Publisher;
-import org.reactivestreams.Subscription;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;

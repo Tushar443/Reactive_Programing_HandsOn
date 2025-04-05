@@ -1,4 +1,4 @@
-package com.practice.fluxMethodsHandsOn;
+package com.practice.fluxHandsOn;
 
 import com.practice.common.Util;
 import reactor.core.publisher.Flux;

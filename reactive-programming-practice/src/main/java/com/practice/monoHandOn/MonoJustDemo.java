@@ -1,4 +1,4 @@
-package com.practice.monoDemo;
+package com.practice.monoHandOn;
 
 import com.practice.publisherSubscriberPractice.SubscriberImpl;
 import reactor.core.publisher.Mono;
