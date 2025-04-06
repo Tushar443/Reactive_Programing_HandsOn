@@ -1,7 +1,7 @@
-package com.practice.Assignment.practice;
+package com.practice.Assignment.Mono.practice;
 
-import com.practice.Assignment.service.FileService;
-import com.practice.Assignment.service.ServiceImpl.FileServiceImpl;
+import com.practice.Assignment.Mono.service.FileService;
+import com.practice.Assignment.Mono.service.ServiceImpl.FileServiceImpl;
 import com.practice.common.Util;
 
 public class DemoFileService {
