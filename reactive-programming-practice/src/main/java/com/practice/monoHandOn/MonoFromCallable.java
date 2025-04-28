@@ -16,7 +16,7 @@ public class MonoFromCallable {
 //        Mono.fromSupplier(()-> sum(list)).subscribe(Util.subscriber()); // throwing error
     }
 
-    private static int sum(List<Integer> list) throws Exception{
+    private static int sum(List<Integer> list) {
         log.info("Finding the Sum of {}",list);
         return list.stream().mapToInt(a->a).sum();
     }

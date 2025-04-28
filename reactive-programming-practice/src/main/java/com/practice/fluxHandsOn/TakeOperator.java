@@ -16,7 +16,7 @@ public class TakeOperator {
     private static void takeUntilOperator() {
         Flux.range(1,10)
                 .log("Take")
-                .takeUntil(integer -> integer > 5) // stop when the condition is met + allow the last item                .log("Sub")
+                .takeUntil(integer -> integer > 5) // stop when the condition is met + allow the last item
                 .subscribe(Util.subscriber());
     }
 

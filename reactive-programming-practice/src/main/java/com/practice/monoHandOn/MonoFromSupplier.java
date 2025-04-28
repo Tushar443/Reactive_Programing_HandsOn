@@ -12,8 +12,9 @@ public class MonoFromSupplier {
 
     public static void main(String[] args) {
         List<Integer> list = List.of(1, 2, 3);
-        //Mono.just(sum(list)); // even if we didn't subscribe it is finding the sum it is not lazy
-                //.subscribe(Util.subscriber());
+        // even if we didn't subscribe it is finding the sum it is not lazy
+        //Mono.just(sum(list)).subscribe(Util.subscriber());
+        // Now it is lazy
         Mono.fromSupplier(()-> sum(list)).subscribe(Util.subscriber());
     }
 
