@@ -1,4 +1,4 @@
-package com.practice.fluxHandsOn.StreamingMessages;
+package com.practice.fluxHandsOn;
 
 import com.practice.common.AbstractHttpClient;
 import com.practice.common.Util;

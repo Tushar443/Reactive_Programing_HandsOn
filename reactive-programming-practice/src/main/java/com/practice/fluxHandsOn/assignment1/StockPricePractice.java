@@ -1,4 +1,4 @@
-package com.practice.Assignment.Flux;
+package com.practice.fluxHandsOn.assignment1;
 
 import com.practice.common.AbstractHttpClient;
 import com.practice.common.Util;
@@ -6,8 +6,6 @@ import org.reactivestreams.Subscriber;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Flux;
-
-import java.util.function.Consumer;
 
 public class StockPricePractice {
     private static final Logger log = LoggerFactory.getLogger(StockPricePractice.class);

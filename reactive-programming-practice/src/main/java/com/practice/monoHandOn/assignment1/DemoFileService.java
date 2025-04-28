@@ -1,7 +1,5 @@
-package com.practice.Assignment.Mono.practice;
+package com.practice.monoHandOn.assignment1;
 
-import com.practice.Assignment.Mono.service.FileService;
-import com.practice.Assignment.Mono.service.ServiceImpl.FileServiceImpl;
 import com.practice.common.Util;
 
 public class DemoFileService {

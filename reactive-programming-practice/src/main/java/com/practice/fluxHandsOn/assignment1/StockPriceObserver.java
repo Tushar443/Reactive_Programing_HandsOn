@@ -1,4 +1,4 @@
-package com.practice.Assignment.Flux;
+package com.practice.fluxHandsOn.assignment1;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
