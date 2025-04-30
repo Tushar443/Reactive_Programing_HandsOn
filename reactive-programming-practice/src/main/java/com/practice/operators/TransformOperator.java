@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Flux;
 
+import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
 public class TransformOperator {
@@ -14,6 +15,7 @@ public class TransformOperator {
         /*
             Old Code repeat code
          */
+        /*
         getCustomer()
                 .doOnNext(i -> log.info("recevied {}", i))
                 .doOnComplete(() -> log.info("Complete"))
@@ -25,14 +27,17 @@ public class TransformOperator {
                 .doOnError(e -> log.error("error ", e))
                 .subscribe();
 
+         */
+
         /*
             New code with Transform
          */
+        boolean isDebugEnabled = true;
         getCustomer()
-                .transform(addDebugger())
+                .transform(isDebugEnabled ? addDebugger() : Function.identity())
                 .subscribe();
         getPurchaseOrders()
-                .transform(addDebugger())
+                .transform(isDebugEnabled ? addDebugger() : Function.identity())
                 .subscribe();
     }
 
